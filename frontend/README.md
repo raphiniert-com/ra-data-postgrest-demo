@@ -5,7 +5,7 @@
 Install the application dependencies by running:
 
 ```sh
-npm install
+npm install --force
 ```
 
 ## Development
