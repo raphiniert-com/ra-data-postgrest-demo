@@ -4,19 +4,8 @@ import {
     Show,
     SimpleShowLayout,
     TextField,
-    NumberField,
-    EditButton,
-    TopToolbar,
-    DeleteButton
+    NumberField
   } from 'react-admin';
-
-
-  const DrugSpecificationShowActions = () => (
-    <TopToolbar>
-        <EditButton />
-        <DeleteButton />
-    </TopToolbar>
-);
 
 
 const  DrugSpecificationShow = props => (

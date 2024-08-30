@@ -1,8 +1,5 @@
 import * as React from "react";
 import { 
-  Filter,
-  FilterLiveSearch,
-  SelectInput,
   List, 
   Datagrid, 
   TextField,
@@ -13,7 +10,7 @@ import {
 } from 'react-admin';
 
 
-const DrugSpecificationListActions = ({ basePath }) => (
+const DrugSpecificationListActions = () => (
   <TopToolbar>
       <CreateButton />
       <ExportButton />
